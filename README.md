@@ -1,3 +1,10 @@
+Created using Vue, NuxtJS and Tailwind CSS. 
+
+
+https://github.com/namancoder/User-Management-Dashboard/assets/49373509/8db496b5-ef22-4f6d-8496-f42d7844eaa8
+
+
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
@@ -61,6 +68,10 @@ Locally preview production build:
 ```bash
 # npm
 npm run preview
+
+https://github.com/namancoder/User-Management-Dashboard/assets/49373509/82f2c409-e955-4691-88f2-2b9512ff60dc
+
+
 
 # pnpm
 pnpm run preview
