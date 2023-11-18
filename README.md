@@ -1,8 +1,7 @@
 Created using Vue, NuxtJS and Tailwind CSS. 
 
-Overview:
 
- https://github.com/namancoder/User-Management-Dashboard/assets/49373509/82f2c409-e955-4691-88f2-2b9512ff60dc
+https://github.com/namancoder/User-Management-Dashboard/assets/49373509/82f2c409-e955-4691-88f2-2b9512ff60dc
 
 
 
