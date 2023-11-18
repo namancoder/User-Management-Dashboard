@@ -65,7 +65,6 @@ th,
 td {
   text-align: left;
 }
-
 dialog[open] {
   display: flex;
   align-items: center;
@@ -74,31 +73,6 @@ dialog[open] {
   top: 0;
   left: 0;
   width: 420px;
-  height: 300px;
-}
-
-.dialog-content {
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: left;
-  max-width: 400px;
-  width: 100%;
-  z-index: 2;
-  position: absolute;
-}
-
-.dialog-content h2 {
-  color: #333;
-  margin-bottom: 20px;
-}
-
-.details {
-  margin-bottom: 20px;
-}
-
-.details div {
-  margin-bottom: 10px;
+  height: 280px;
 }
 </style>
