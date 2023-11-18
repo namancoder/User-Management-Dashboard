@@ -8,7 +8,7 @@
           id="search"
           name="search"
           placeholder="Search Users..."
-          class="mt-3 !-mb-3 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300 w-full"
+          class="mt-3 p-2 border border-gray-500 rounded-md focus:outline-none focus:ring focus:border-blue-300 w-full"
         />
       </div>
     </div>
@@ -36,7 +36,6 @@ export default {
       if (!term) {
         return this.users;
       }
-      console.log("abcdefgh");
       return this.users.filter((user) => {
         for (const key in user) {
           if (Object.prototype.hasOwnProperty.call(user, key)) {
@@ -62,5 +61,8 @@ export default {
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+::placeholder {
+  color: black;
 }
 </style>

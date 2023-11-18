@@ -1,9 +1,6 @@
 <template>
   <div class="container mx-auto">
-    <table
-      class="min-w-full bg-white border border-gray-300"
-      aria-describedby="User Table"
-    >
+    <table class="min-w-full bg-white" aria-describedby="User Table">
       <thead>
         <tr>
           <th class="py-2 px-4 border-b">ID</th>
@@ -27,7 +24,6 @@
           <td class="py-2 px-4 border-b">{{ user["creation-date"] }}</td>
         </tr>
       </tbody>
-      <!-- Dialog -->
       <dialog ref="userDialog">
         <user-dialog :selected-user="selectedUser" :closeDialog="closeDialog" />
       </dialog>

@@ -61,22 +61,19 @@ export default {
   },
   methods: {
     submitForm() {
-      // Simulate an asynchronous request
       if (this.username == "" || this.password == "") {
         alert("Please fill all the fields");
         return;
       }
+      // Simulate an asynchronous request
       setTimeout(() => {
         alert(
-          `Dummy request sent!\nUsername: ${this.username}\nPassword: ${this.password}`
+          `Log in Successful!\nUsername: ${this.username}\nPassword: ${this.password}`
         );
-        // You can replace the alert with your actual request handling logic
+        this.username = "";
+        this.password = "";
       }, 1000);
     },
   },
 };
 </script>
-
-<style scoped>
-/* Add any custom styling specific to this component */
-</style>
